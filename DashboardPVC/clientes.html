@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <title>Admin</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="css/clientes.css">
+</head>
+
+<body>
+
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2><span class="las la-clinic-medical"></span> <span>Hospital</span></h2>
+        </div>
+        <!--Secciones-del-tablero-->
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="" class="active"><span class="las la-home"></span>
+                    <span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-users">
+                        </span>Clientes</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-shopping-bag">
+                        </span>Ordenes<span></span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-receipt">
+                        </span>Inventario<span></span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-user-circle">
+                        </span>Cuentas<span></span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-clipboard-list">
+                        </span>Informes<span></span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <span class="las la-bars"></span>
+                </label> Tablero
+            </h2>
+
+            <div class="search-wrapper">
+                <span class="las la-search"></span>
+                <input type="search" placeholder="Buscar aquí" />
+            </div>
+            <div class="user-wrapper">
+                <img src="img/Avatar.png" width="40px" height="40px" alt="">
+                <div>
+                    <h4>Juan Osorio</h4>
+                    <small>Super Admin</small>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!--Tabla-->
+            <div class="recent-grid">
+                <div class="projects">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Registro nuevo cliente</h3>
+
+                            <button>Mostrar todo <span class="las la-arrow-right">
+                            </span></button>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table width="100%">
+                                    <thead>
+                                        <tr>
+                                            <td>Datos personales</td>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Nombre: <input type="text" placeholder="Nombre"></td>
+                                            <td>Apellido: <input type="text" placeholder="Apellido"></td>
+                                            <td>Celular: <input type="text" placeholder="Celular"></td>
+                                            <td>Correo electronico: </td>
+                                        </tr>
+
+
+                                    </tbody>
+                                    <thead>
+                                        <tr>
+                                            <td>Otros datos</td>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Jhon Deiby</td>
+                                            <td>Salazar Rayo</td>
+                                            <td>
+                                                
+                                            </td>
+                                        </tr>
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
